@@ -1,0 +1,56 @@
+baseUrl = "https://coreypetty.com"
+title = "Corey Petty's Personal Website"
+author = "Corey Petty"
+canonifyurls = true
+theme = "distillpub"
+
+[taxonomies]
+# TODO: Taxonomies?
+
+[params]
+  description = "Corey Petty's Personal Website"
+  keywords = ["hugo", "distill", "Corey Petty", "blog"]
+  sourcePrefix = "https://github.com/activatedgeek/distillpub/blob/master/exampleSite"
+
+  color = "#0f2e3d"
+
+  [[params.social]]
+  class = "fas fa-user-graduate"
+  url = "https://scholar.google.com/citations?user=OE1284QAAAAJ&hl"
+
+  [[params.social]]
+  class = "fab fa-github"
+  url = "https://github.com/corpetty"
+
+  [[params.social]]
+  class = "fab fa-linkedin"
+  url = "https://linkedin.com/in/coreypetty"
+
+  [[params.social]]
+  class = "fab fa-twitter"
+  url = "https://twitter.com/corpetty"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "posts"
+  name = "Blog Posts"
+  title = "Blog Posts"
+  url = "/posts"
+  weight = -10
+
+  [[menu.main]]
+  identifier = "media"
+  name = "Media Appearances"
+  title = "Media Appearances"
+  url = "/appearances"
+  weight = -10
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About Corey Petty"
+  title = "about"
+  url = "/about"
+  weight = -10
+
+  
