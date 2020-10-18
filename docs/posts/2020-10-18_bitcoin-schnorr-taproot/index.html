@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="robots" content="index,follow">
+<base href="https://coreypetty.com">
+<link rel="canonical" href="https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/" />
+<meta name="generator" content="Hugo 0.68.3" />
+
+<meta name="application-name" content="Corey Petty&#39;s Personal Website">
+<meta name="theme-color" content="#544f49">
+<meta name="msapplication-navbutton-color" content="#544f49"><meta name="description" content="A commentary on the news that Schnorr and Taproot have been incorporated into Bitcoin codebase." />
+
+  <meta name="keywords" content='hugo,distill,Corey Petty,blog' /><meta name="author" content='{        map[]}' />
+<link rel="shortcut icon" type="image/x-icon" href="https://coreypetty.com/favicon.ico">
+<link rel="apple-touch-icon" href="https://coreypetty.com/favicon.ico">
+<link rel="mask-icon" href="https://coreypetty.com/favicon.ico">
+
+<link href="" rel="alternate" type="application/rss+xml" title="Corey Petty&#39;s Personal Website" />
+<link href="" rel="feed" type="application/rss+xml" title="Corey Petty&#39;s Personal Website" />
+
+<title>Schnorr and Taproot make it into Bitcoin codebase. So what?</title>
+
+<meta property="og:title" content="Schnorr and Taproot make it into Bitcoin codebase. So what?" />
+<meta property="og:description" content="A commentary on the news that Schnorr and Taproot have been incorporated into Bitcoin codebase." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/" />
+<meta property="article:published_time" content="2020-10-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-18T00:00:00+00:00" />
+<meta itemprop="name" content="Schnorr and Taproot make it into Bitcoin codebase. So what?">
+<meta itemprop="description" content="A commentary on the news that Schnorr and Taproot have been incorporated into Bitcoin codebase.">
+<meta itemprop="datePublished" content="2020-10-18T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-10-18T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="555">
+
+
+
+<meta itemprop="keywords" content="taproot,Bitcoin,schnorr,tapscript," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Schnorr and Taproot make it into Bitcoin codebase. So what?"/>
+<meta name="twitter:description" content="A commentary on the news that Schnorr and Taproot have been incorporated into Bitcoin codebase."/>
+
+  
+
+  
+    <script src="https://distill.pub/template.v2.js"></script>
+
+
+
+
+
+
+
+
+  
+  
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+
+
+
+  
+</head>
+<body>
+  
+    <d-header>
+  <style>
+    d-header {
+      display: block;
+      align-items: center;
+      background-color: #544f49;
+      padding: 2em 4em;
+      z-index: 2;
+      color: rgba(0, 0, 0, 0.8);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    d-header a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    d-header a:hover {
+      color: white;
+    }
+
+    d-header .nav {
+      float: right;
+      font-weight: 300;
+    }
+    d-header .nav a {
+      font-size: 0.8em;
+      margin-left: 1.5em;
+      text-transform: uppercase;
+    }
+
+    d-header .logo {
+      font-size: 1.5em;
+    }
+  </style>
+
+  <div class="content">
+    <a href="https://coreypetty.com/" class="logo">Corey Petty&#39;s Personal Website</a>
+    <div class="nav">
+      
+        <a href="https://coreypetty.com/about/description">about</a> 
+      
+      <a target="_blank" href="">RSS</a>
+    </div>
+  </div>
+</d-header>
+  
+  
+  
+
+<d-front-matter>
+  <script type="text/json">{
+    "title": "Schnorr and Taproot make it into Bitcoin codebase. So what?",
+    "description": "A commentary on the news that Schnorr and Taproot have been incorporated into Bitcoin codebase.",
+    "published": "Oct 18, 2020",
+    "authors": [
+        {
+          "author": "Corey Petty",
+          "authorURL": "http://coreypetty.com/",
+          "affiliations": [
+            
+              {
+                "name": "Status.im",
+                "url": "https://status.im"
+              },
+            
+              {
+                "name": "The Bitcoin Podcast",
+                "url": "https://thebitcoinpodcast.com"
+              },
+            
+              {
+                "name": "Hashing It Out",
+                "url": "https://hashingitout.stream"
+              },
+            
+              {
+                "name": "BlockChannel",
+                "url": "https://blockchannel.com"
+              }
+            
+          ]
+        }],
+    "katex": {
+      "delimiters": [
+        {"left": "$$", "right": "$$", "display": true},
+        {"left": "$", "right": "$", "display": false},
+        {"left": "\\(", "right": "\\)", "display": false},
+        {"left": "\\[", "right": "\\]", "display": true}
+      ]
+    }
+  }</script>
+</d-front-matter>
+
+
+<d-title></d-title>
+
+
+
+<d-article>
+  <p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This oned happened to catch my eye as it&rsquo;s an update I&rsquo;ve been waiting for; <a href="https://decrypt.co/45138/bitcoin-is-getting-two-major-improvements-in-historic-code-update">Bitcoin is getting two major improvements in historic code update</a> from Decrypt. I immediately said we would talk about this in the upcomming The Bitcoin Podcast episode roundtable. But first, I&rsquo;d wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don&rsquo;t listen the podcast, but are still interested.</p>
+<p>For those who would like to listen to our converation about this on The Bitcoin podcast, here&rsquo;s the episode:</p>
+<p><code>&lt;EMBED HERE&gt;</code></p>
+<p>I&rsquo;m also trying to write more (hence this website / blog / resource / whatever).</p>
+<h2 id="what-happened">What happened?</h2>
+<p>For those that don&rsquo;t know, the Bitcoin ecosystem has been working on some protocol level improvements that drastically expand the capabilities of the system. On October 15th, 2020, a <a href="https://github.com/bitcoin/bitcoin/pull/19953">pull request</a> was merged into the Bitcoin Core codebase which adds a bunch of new features which have been under review for quite a long time. Namely, Schnorr signatures<d-cite key="BIP340-schnorr"></d-cite>, Taproot<d-cite key="BIP341-taproot"></d-cite>, and Tapscript<d-cite key="BIP342-tapscript"></d-cite>.</p>
+<h2 id="what-do-those-words-mean">What do those words mean?</h2>
+<p>Many have already asked me what these different changes are, so I&rsquo;m going to try and conceptually explain them at a high level:</p>
+<h3 id="schnorr-signatures">Schnorr Signatures</h3>
+<p>To start, I did a <a href="http://thebitcoinpodcast.com/hashing-it-out-51/">Hashing It Out Interview</a> with Andrew Poelstra about a year ago that described Schnorr signatures<d-cite key="schnorrwikipedia"></d-cite> with some detail, I&rsquo;d recommend checking it out. For the lazy, or those that don&rsquo;t like audio content, here&rsquo;s an overview:</p>
+<p>Currently, the Bitcoin protocol uses digital signatures to sign messages. The algorithm used to do this is ECDSA, specifically for keypairs on the secp256k1 curve<d-cite key="BIP340-schnorr,khatwani2020schnorr"></d-cite>. The proposal is to extend signature schemes to include the ability to sign messages via the Schnorr algorithm (on the same curve). At a high level, <em>this allows a message that is signed by multiple keys to be aggregated into a single signature</em>, which results in a more efficient message size. This algorithm also has efficiency gains in verification and authentication processes.</p>
+<p>For instance, if you&rsquo;d like to send a transaction that requires multiple UTXOs, you would previously have to include every signature of each UXTO included in the message (this is very common occurance as HD wallets are standard practice). The Schnorr algorithm turns all of those signatures into a single signature.</p>
+<h3 id="taproot">Taproot</h3>
+<p>Taproot is an improvement on a different technology called <code>Merkelized Abstract Syntax Tree</code> or MAST. In short, a MAST allows you to stack Bitcoin scripts into a Merkle tree, expanding the possibile things a Bitcoin txn is capable of doing<d-cite key="khatwani2020taproot"></d-cite>.</p>
+<h3 id="tapscript">Tapscript</h3>
+<p>Tapscript is a short name for referring to the updates required to the validation process in Bitcoin. Taproot is an update to the Bitcoin script language. More specifically, it aims at including the previously mentioned technologie available so that Bitcoin is capable of velidating transactions that use them.</p>
+<h2 id="what-happens-next">What happens next?</h2>
+<p>So this post is all about the fact that the code has been incorporated into the main client codebase, but that isn&rsquo;t the end of the story. In order for these technologies to <em>actually be used</em> in Bitcoin, the community will have to go through some activation mechanism.</p>
+<h2 id="some-thoughts-on-the-repercussions">Some thoughts on the repercussions</h2>
+<p>text TBD</p>
+
+</d-article>
+
+
+<d-appendix>
+  
+    <h3 id="contributions">Contributions</h3>
+<p>Just Corey.</p>
+<h3 id="reviewers">Reviewers</h3>
+<p>None so far.</p>
+
+  
+
+  
+    
+    <h3>Updates and Corrections</h3>
+    <p>If you see mistakes or want to suggest changes, please create issues or revisions against
+      <a target="_blank" href="https://github.com/activatedgeek/distillpub/blob/master/exampleSite/content/posts/2020-10-18_bitcoin-schnorr-taproot/">source</a>.
+    </p>
+  
+
+  
+    <d-bibliography src="https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/refs.bib"></d-bibliography>  
+  
+</d-appendix>
+
+
+
+  
+    <dt-footer>
+  <style>
+  dt-footer .l-page {
+    display: block;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 300;
+    padding: 2em 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #544f49;
+    text-align: center;
+  }
+
+  dt-footer .logo {
+    font-size: 1em;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-right: 1em;
+  }
+  dt-footer .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+  }
+  dt-footer .nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  dt-footer .nav a i {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0.25em;
+  }
+
+  dt-footer .footer-close p {
+    margin: 0;
+  }
+
+  dt-footer .footer-close a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  </style>
+  
+  <div class="l-page">
+    <div class="nav">
+      <a target="_blank" href="https://scholar.google.com/citations?user=OE1284QAAAAJ&amp;hl">
+  <i class="fas fa-user-graduate" aria-hidden="true"></i>
+</a>
+<a target="_blank" href="https://github.com/corpetty">
+  <i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a target="_blank" href="https://linkedin.com/in/coreypetty">
+  <i class="fab fa-linkedin" aria-hidden="true"></i>
+</a>
+<a target="_blank" href="https://twitter.com/corpetty">
+  <i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+
+    </div>
+
+    <div class="footer-close">
+      <p>&copy; 2020</p>
+      <p>
+        <i class="fas fa-bolt" aria-hidden="true"></i> by <a target="_blank" href="https://gohugo.io/">Hugo</a> | 
+        <i class="fas fa-paint-brush" aria-hidden="true"></i> by <a target="_blank" href="https://distill.pub/">Distill</a> |
+        <i class="fas fa-code" aria-hidden="true"></i> by <a target="_blank" href="https://github.com/corpetty">@corpetty</a>
+      </p>
+    </div>
+  </div>
+</dt-footer>
+
+
+  
+</body>
+</html>

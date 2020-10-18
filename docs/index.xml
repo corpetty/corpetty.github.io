@@ -11,12 +11,12 @@
     
     
     <item>
-      <title>Schnorr and Taproot make it into Bitcoin codebase; So what?</title>
-      <link>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/2020-10-18-bitcoin-schnorr-taproot-in-codebase/</link>
+      <title>Schnorr and Taproot make it into Bitcoin codebase. So what?</title>
+      <link>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/</link>
       <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/2020-10-18-bitcoin-schnorr-taproot-in-codebase/</guid>
-      <description>As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This oned happened to catch my eye as it&amp;rsquo;s an update I&amp;rsquo;ve been waiting for; Bitcoin is getting two major improvements in historic code update from Decrypt. I immediately said we would talk about this in the upcomming The Bitcoin Podcast episode roundtable. But first, I&amp;rsquo;d wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead in order for them to actually be used for those that don&amp;rsquo;t listne the podcast, but are still interested.</description>
+      <guid>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/</guid>
+      <description>As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This oned happened to catch my eye as it&amp;rsquo;s an update I&amp;rsquo;ve been waiting for; Bitcoin is getting two major improvements in historic code update from Decrypt. I immediately said we would talk about this in the upcomming The Bitcoin Podcast episode roundtable. But first, I&amp;rsquo;d wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don&amp;rsquo;t listen the podcast, but are still interested.</description>
     </item>
     
     <item>
@@ -35,21 +35,6 @@
       
       <guid>https://coreypetty.com/appearances/</guid>
       <description>Corey Petty is awesome, nuff said!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/appendix/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/appendix/</guid>
-      <description>### Contributions
-
-Some text describing who did what.
-
-### Reviewers
-
-Some text with links describing who reviewed the article.</description>
     </item>
     
   </channel>
