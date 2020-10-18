@@ -1,0 +1,6 @@
+[submodule "distillpub"]
+	path = distillpub
+	url = https://github.com/corpetty/distillpub
+[submodule "themes/distillpub"]
+	path = themes/distillpub
+	url = https://github.com/corpetty/distillpub.git
