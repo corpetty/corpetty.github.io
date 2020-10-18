@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corey Petty&#39;s Personal Website</title>
+    <link>https://coreypetty.com/</link>
+    <description>Recent content on Corey Petty&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://coreypetty.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Corey Petty</title>
+      <link>https://coreypetty.com/about/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://coreypetty.com/about/</guid>
+      <description>Corey Petty is awesome, nuff said!</description>
+    </item>
+    
+    <item>
+      <title>Corey Petty Media Appearances</title>
+      <link>https://coreypetty.com/appearances/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://coreypetty.com/appearances/</guid>
+      <description>Corey Petty is awesome, nuff said!</description>
+    </item>
+    
+    <item>
+      <title>Attention and Augmented Recurrent Neural Networks</title>
+      <link>https://coreypetty.com/posts/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://coreypetty.com/posts/</guid>
+      <description>This is the ﬁrst paragraph of the article. Test a long — dash — here it is.
+Test for owner’s possessive. Test for &amp;ldquo;quoting a passage.&amp;rdquo; And another sentence. Or two. Some ﬂopping ﬁns; for diving.
+Here’s a test of an inline equation c = a^2 + b^2 . And then there’s a block equation: c = \pm \sqrt{ \sum_{i=0}^{n}{a^{222} + b^2}}  We can  also cite  external publications.</description>
+    </item>
+    
+  </channel>
+</rss>

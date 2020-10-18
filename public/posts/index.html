@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta name="robots" content="index,follow">
+<base href="https://coreypetty.com">
+<link rel="canonical" href="https://coreypetty.com/posts/" />
+<meta name="generator" content="Hugo 0.68.3" />
+
+<meta name="application-name" content="Corey Petty&#39;s Personal Website">
+<meta name="theme-color" content="#0f2e3d">
+<meta name="msapplication-navbutton-color" content="#0f2e3d"><meta name="description" content="This is a demo article." />
+
+  <meta name="keywords" content='hugo,distill,Corey Petty,blog' /><meta name="author" content='{        map[]}' />
+<link rel="shortcut icon" type="image/x-icon" href="https://coreypetty.com/favicon.ico">
+<link rel="apple-touch-icon" href="https://coreypetty.com/favicon.ico">
+<link rel="mask-icon" href="https://coreypetty.com/favicon.ico">
+
+<link href="" rel="alternate" type="application/rss+xml" title="Corey Petty&#39;s Personal Website" />
+<link href="" rel="feed" type="application/rss+xml" title="Corey Petty&#39;s Personal Website" />
+
+<title>Attention and Augmented Recurrent Neural Networks</title>
+
+<meta property="og:title" content="Attention and Augmented Recurrent Neural Networks" />
+<meta property="og:description" content="This is a demo article." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coreypetty.com/posts/" />
+<meta property="article:published_time" content="2017-01-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-01-10T00:00:00+00:00" />
+<meta itemprop="name" content="Attention and Augmented Recurrent Neural Networks">
+<meta itemprop="description" content="This is a demo article.">
+<meta itemprop="datePublished" content="2017-01-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-01-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="246">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Attention and Augmented Recurrent Neural Networks"/>
+<meta name="twitter:description" content="This is a demo article."/>
+
+  
+
+  
+    <script src="https://distill.pub/template.v2.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
+
+
+  
+  
+  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+
+
+
+  
+</head>
+<body>
+  
+    <d-header>
+  <style>
+    d-header {
+      display: block;
+      align-items: center;
+      background-color: #0f2e3d;
+      padding: 2em 4em;
+      z-index: 2;
+      color: rgba(0, 0, 0, 0.8);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    d-header a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.8);
+    }
+    d-header a:hover {
+      color: white;
+    }
+
+    d-header .nav {
+      float: right;
+      font-weight: 300;
+    }
+    d-header .nav a {
+      font-size: 0.8em;
+      margin-left: 1.5em;
+      text-transform: uppercase;
+    }
+
+    d-header .logo {
+      font-size: 1.5em;
+    }
+  </style>
+
+  <div class="content">
+    <a href="https://coreypetty.com/" class="logo">Corey Petty&#39;s Personal Website</a>
+    <div class="nav">
+      
+        <a target="_blank" href="https://coreypetty.com/about">about</a> 
+      
+        <a target="_blank" href="https://coreypetty.com/posts">Blog Posts</a> 
+      
+        <a target="_blank" href="https://coreypetty.com/appearances">Media Appearances</a> 
+      
+      <a target="_blank" href="">RSS</a>
+    </div>
+  </div>
+</d-header>
+  
+  
+  
+
+<d-front-matter>
+  <script type="text/json">{
+    "title": "Attention and Augmented Recurrent Neural Networks",
+    "description": "This is a demo article.",
+    "published": "Jan 10, 2017",
+    "authors": [
+        {
+          "author": "Chris Olah",
+          "authorURL": "http://colah.github.io/",
+          "affiliations": [
+            
+              {
+                "name": "Google Brain",
+                "url": "http://g.co/brain"
+              }
+            
+          ]
+        },
+        {
+          "author": "Shan Carter",
+          "authorURL": "http://shancarter.com",
+          "affiliations": [
+            
+              {
+                "name": "Google Brain",
+                "url": "http://g.co/brain"
+              }
+            
+          ]
+        }],
+    "katex": {
+      "delimiters": [
+        {"left": "$$", "right": "$$", "display": true},
+        {"left": "$", "right": "$", "display": false},
+        {"left": "\\(", "right": "\\)", "display": false},
+        {"left": "\\[", "right": "\\]", "display": true}
+      ]
+    }
+  }</script>
+</d-front-matter>
+
+
+<d-title></d-title>
+
+
+
+<d-article>
+  <p><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>This is the ﬁrst paragraph of the article. Test a long — dash — here it is.</p>
+<p>Test for owner’s possessive. Test for &ldquo;quoting a passage.&rdquo; And another sentence. Or two. Some ﬂopping ﬁns; for diving.</p>
+<p>Here’s a test of an inline equation <d-math >c = a^2 + b^2</d-math>
+. And then there’s a block equation:
+<d-math  block >
+  c = \pm \sqrt{ \sum_{i=0}^{n}{a^{222} + b^2}}
+</d-math>
+</p>
+<p>We can <d-cite key="mercier2011humans"></d-cite> also cite <d-cite key="gregor2015draw,mercier2011humans"></d-cite> external publications. <d-cite key="dong2014image,dumoulin2016guide,mordvintsev2015inceptionism"></d-cite>.</p>
+<p>We should also be testing footnotes<d-footnote>This will become a hoverable footnote. This will become a hoverable footnote. This will become a hoverable footnote. This will become a hoverable footnote. This will become a hoverable footnote. This will become a hoverable footnote. This will become a hoverable footnote. This will become a hoverable footnote.</d-footnote>
+. There are multiple footnotes, and they appear in the appendix<d-footnote>Given I have coded them right. Also, here’s math in a footnote: <d-math >c = \sum_0^i{x}</d-math>
+. Also, a citation. Box-ception <d-cite key="gregor2015draw"></d-cite>! </d-footnote>
+ as well.</p>
+<table>
+<thead>
+<tr>
+<th><strong>First</strong></th>
+<th><strong>Second</strong></th>
+<th><strong>Third</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>23</td>
+<td>654</td>
+<td>23</td>
+</tr>
+<tr>
+<td>14</td>
+<td>54</td>
+<td>34</td>
+</tr>
+<tr>
+<td>234</td>
+<td>54</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h2 id="displaying-code-snippets">Displaying code snippets</h2>
+<p>Some inline javascript: <d-code   language=javascript >var x = 25;</d-code>
+</p>
+<p>Here’s a javascript code block.
+<d-code  block   language=javascript >
+var x = 25;
+function(x){
+  return x * x;
+}
+</d-code>
+</p>
+<p>We also support python.
+<d-code  block   language=python >
+# Python 3: Fibonacci series up to n
+def fib(n):
+  a, b = 0, 1
+    while a &lt; n:
+      print(a, end=' ')
+      a, b = b, a+b
+</d-code>
+</p>
+<p>And guess what! We also have Vega-Lite embedded graphs!</p>
+<div id='viz'></div>
+<script type="text/javascript">
+  var spec = 'https:\/\/raw.githubusercontent.com\/vega\/vega\/master\/docs\/examples\/bar-chart.vg.json';
+  vegaEmbed('#viz', spec).then(function(result) {
+    
+  }).catch(console.error);
+</script>
+<p>That’s it for the example article!</p>
+
+</d-article>
+
+
+<d-appendix>
+  
+    <h3 id="contributions">Contributions</h3>
+<p>Some text describing who did what.</p>
+<h3 id="reviewers">Reviewers</h3>
+<p>Some text with links describing who reviewed the article.</p>
+
+  
+
+  
+    
+    <h3>Updates and Corrections</h3>
+    <p>If you see mistakes or want to suggest changes, please create issues or revisions against
+      <a target="_blank" href="https://github.com/activatedgeek/distillpub/blob/master/exampleSite/content/posts/">source</a>.
+    </p>
+  
+
+  
+    <d-bibliography src="https://coreypetty.com/posts/refs.bib"></d-bibliography>  
+  
+</d-appendix>
+
+
+
+  
+    <dt-footer>
+  <style>
+  dt-footer .l-page {
+    display: block;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 300;
+    padding: 2em 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #0f2e3d;
+    text-align: center;
+  }
+
+  dt-footer .logo {
+    font-size: 1em;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    margin-right: 1em;
+  }
+  dt-footer .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+  }
+  dt-footer .nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  dt-footer .nav a i {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0.25em;
+  }
+
+  dt-footer .footer-close p {
+    margin: 0;
+  }
+
+  dt-footer .footer-close a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  </style>
+  
+  <div class="l-page">
+    <div class="nav">
+      <a target="_blank" href="https://scholar.google.com/citations?user=OE1284QAAAAJ&amp;hl">
+  <i class="fas fa-user-graduate" aria-hidden="true"></i>
+</a>
+<a target="_blank" href="https://github.com/corpetty">
+  <i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a target="_blank" href="https://linkedin.com/in/coreypetty">
+  <i class="fab fa-linkedin" aria-hidden="true"></i>
+</a>
+<a target="_blank" href="https://twitter.com/corpetty">
+  <i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+
+    </div>
+
+    <div class="footer-close">
+      <p>&copy; 2020</p>
+      <p>
+        <i class="fas fa-bolt" aria-hidden="true"></i> by <a target="_blank" href="https://gohugo.io/">Hugo</a> | 
+        <i class="fas fa-paint-brush" aria-hidden="true"></i> by <a target="_blank" href="https://distill.pub/">Distill</a> |
+        <i class="fas fa-code" aria-hidden="true"></i> by <a target="_blank" href="https://github.com/activatedgeek">@activatedgeek</a>
+      </p>
+    </div>
+  </div>
+</dt-footer>
+
+
+  
+</body>
+</html>
