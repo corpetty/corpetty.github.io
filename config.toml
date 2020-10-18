@@ -3,6 +3,7 @@ title = "Corey Petty's Personal Website"
 author = "Corey Petty"
 canonifyurls = true
 theme = "distillpub"
+publishDir = "docs"
 
 [taxonomies]
 # TODO: Taxonomies?
