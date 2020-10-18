@@ -13,7 +13,7 @@ publishDir = "docs"
   keywords = ["hugo", "distill", "Corey Petty", "blog"]
   sourcePrefix = "https://github.com/activatedgeek/distillpub/blob/master/exampleSite"
 
-  color = "#0f2e3d"
+  color = "#544f49"
 
   [[params.social]]
   class = "fas fa-user-graduate"
@@ -34,24 +34,10 @@ publishDir = "docs"
 [menu]
 
   [[menu.main]]
-  identifier = "posts"
-  name = "Blog Posts"
-  title = "Blog Posts"
-  url = "/posts"
-  weight = -10
-
-  [[menu.main]]
-  identifier = "media"
-  name = "Media Appearances"
-  title = "Media Appearances"
-  url = "/appearances"
-  weight = -10
-
-  [[menu.main]]
   identifier = "about"
   name = "About Corey Petty"
   title = "about"
-  url = "/about"
-  weight = -10
+  url = "/about/description"
+  weight = 30
 
   

@@ -3,9 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://coreypetty.com/</loc>
+    <loc>https://coreypetty.com/posts/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/2020-10-18-bitcoin-schnorr-taproot-in-codebase/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coreypetty.com/about/description/</loc>
     <lastmod>2020-10-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -19,8 +28,12 @@
   </url>
   
   <url>
-    <loc>https://coreypetty.com/posts/</loc>
-    <lastmod>2017-01-10T00:00:00+00:00</lastmod>
+    <loc>https://coreypetty.com/</loc>
+    <lastmod>2020-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/appendix/</loc>
   </url>
   
 </urlset>

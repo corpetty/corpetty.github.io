@@ -1,8 +1,8 @@
 +++
-title = "About Corey Petty"
+title = "About me"
 date = "2020-10-17"
-description = "This page is about Corey Petty."
-thumbnail = "https://pbs.twimg.com/profile_images/1175425648665473024/u_4ubWJ7_400x400.jpg"
+description = "This page is about Corey Petty, PhD."
+thumbnail = ""
 categories = [
   "info",
 ]
@@ -34,5 +34,6 @@ tags = []
     name = "BlockChannel"
     url = "https://blockchannel.com"
 +++
+![Profile Pic](https://pbs.twimg.com/profile_images/1175425648665473024/u_4ubWJ7_400x400.jpg)
 
 Corey Petty is awesome, nuff said!

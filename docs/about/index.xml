@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Corey Petty&#39;s Personal Website</title>
+    <link>https://coreypetty.com/about/</link>
+    <description>Recent content in Abouts on Corey Petty&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://coreypetty.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>https://coreypetty.com/about/description/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://coreypetty.com/about/description/</guid>
+      <description>Corey Petty is awesome, nuff said!</description>
+    </item>
+    
+  </channel>
+</rss>
