@@ -40,11 +40,11 @@ tags = ["taproot", "Bitcoin", "schnorr", "tapscript"]
   <p>As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This oned happened to catch my eye as it's an update I've been waiting for; Bitcoin is getting two major improvements in historic code update from Decrypt. I immediately said we would talk about this in the upcomming The Bitcoin Podcast episode roundtable. But first, I'd wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don't listen the podcast, but are still interested. </p>
 </d-abstract>
 
-As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This oned happened to catch my eye as it's an update I've been waiting for; [Bitcoin is getting two major improvements in historic code update](https://decrypt.co/45138/bitcoin-is-getting-two-major-improvements-in-historic-code-update) from Decrypt. I immediately said we would talk about this in the upcomming The Bitcoin Podcast episode roundtable. But first, I'd wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don't listen the podcast, but are still interested. 
+As per usual{{<footnote>}}some text here{{</footnote>}}, folks were sending interesting news in he Bitcoin Podcast slack. This oned happened to catch my eye as it's an update I've been waiting for; [Bitcoin is getting two major improvements in historic code update](https://decrypt.co/45138/bitcoin-is-getting-two-major-improvements-in-historic-code-update) from Decrypt. I immediately said we would talk about this in the upcomming The Bitcoin Podcast episode roundtable. But first, I'd wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don't listen the podcast, but are still interested. 
 
 For those who would like to listen to our converation about this on The Bitcoin podcast, here's the episode:
 
-`<EMBED HERE>`
+{{<podcast-embed url="https://player.simplecast.com/282003ff-6b58-4359-93e9-b807f87704f4?dark=true">}}
 
 I'm also trying to write more (hence this website / blog / resource / whatever).
 
