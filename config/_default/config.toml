@@ -1,6 +1,7 @@
 baseURL = "http://coreypetty.com"
 title = "Corey Petty's Personal Website"
 theme = "zzo"
+publishDir = "docs"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
