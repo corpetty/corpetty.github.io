@@ -453,6 +453,17 @@
     var rootEleme = document.getElementById('root');
     var selectThemeElem = document.querySelectorAll('.select-theme');
     var selectThemeItemElem = document.querySelectorAll('.select-theme__item');
+    
+    
+    var skinDarkCode = JSON.parse("\"dark\"");
+    
+    var skinLightCode = JSON.parse("\"light\"");
+    
+    var skinHackerCode = JSON.parse("\"hacker\"");
+    
+    var skinSolarizedCode = JSON.parse("\"solarized\"");
+    
+    var skinKimbieCode = JSON.parse("\"kimbie\"");
 
     var setMetaColor = function(themeColor) {
       var metaMsapplicationTileColor = document.getElementsByName('msapplication-TileColor')[0];
@@ -487,6 +498,20 @@
         metaAppleMobileWebAappStatusBarStyle.setAttribute('content', '#eee8d5');
       }
     }
+
+    var parseSkinCode = function(themeText) {
+      if (themeText === skinDarkCode) {
+        return 'dark';
+      } else if (themeText === skinLightCode) {
+        return 'light';
+      } else if (themeText === skinHackerCode) {
+        return 'hacker';
+      } else if (themeText === skinSolarizedCode) {
+        return 'solarized';
+      } else if (themeText === skinKimbieCode) {
+        return 'kimbie';
+      }
+    }
     
     if (localTheme) {
       selectThemeItemElem ? 
@@ -506,7 +531,7 @@
     selectThemeItemElem ? 
     selectThemeItemElem.forEach(function (v, i) {
       v.addEventListener('click', function (e) {
-        var selectedThemeVariant = e.target.text.trim();
+        var selectedThemeVariant = parseSkinCode(e.target.text.trim());
         localStorage.setItem('theme', selectedThemeVariant);
         setMetaColor(selectedThemeVariant);
 
