@@ -6,29 +6,29 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Showcase overview on Corey Petty&#39;s Personal Website</title>
-    <link>http://coreypetty.com/showcase/</link>
-    <description>Recent content in Showcase overview on Corey Petty&#39;s Personal Website</description>
+    <title>misc on Corey Petty&#39;s Personal Website</title>
+    <link>http://coreypetty.com/publication/misc/</link>
+    <description>Recent content in misc on Corey Petty&#39;s Personal Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>corey@petty.services (Corey Petty, PhD)</managingEditor>
     <webMaster>corey@petty.services (Corey Petty, PhD)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 19 Jan 2020 15:43:38 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2020 14:08:48 +0000</lastBuildDate>
     
-        <atom:link href="http://coreypetty.com/showcase/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://coreypetty.com/publication/misc/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
       
       <item>
-        <title>Blockchain</title>
-        <link>http://coreypetty.com/showcase/blockchain/</link>
-        <pubDate>Sun, 19 Jan 2020 21:04:11 +0900</pubDate>
+        <title>Book Review: Duis vulputate</title>
+        <link>http://coreypetty.com/publication/misc/misc_any_folder_name_1/</link>
+        <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
         <author>corey@petty.services (Corey Petty, PhD)</author>
-        <atom:modified>Sun, 19 Jan 2020 21:04:11 +0900</atom:modified>
-        <guid>http://coreypetty.com/showcase/blockchain/</guid>
+        <atom:modified>Tue, 01 Nov 2016 00:00:00 +0000</atom:modified>
+        <guid>http://coreypetty.com/publication/misc/misc_any_folder_name_1/</guid>
         <description></description>
         
         <dc:creator>Corey Petty, PhD</dc:creator>

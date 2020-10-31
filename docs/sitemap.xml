@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://coreypetty.com/showcase/hugo/hugo-theme-zzo/</loc>
+    <loc>http://coreypetty.com/showcase/blockchain/py-etherscan-api/</loc>
     <lastmod>2020-01-19T21:13:42+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://coreypetty.com/showcase/hugo/hugo-theme-zdoc/</loc>
-    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+    <loc>http://coreypetty.com/about/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://coreypetty.com/</loc>
-    <lastmod>2020-10-27T15:43:38+09:00</lastmod>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -74,7 +74,27 @@
   </url>
   
   <url>
-    <loc>http://coreypetty.com/showcase/hugo/</loc>
+    <loc>http://coreypetty.com/publication/article/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/book/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/misc/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/showcase/blockchain/</loc>
     <lastmod>2020-01-19T21:04:11+09:00</lastmod>
   </url>
   
@@ -84,8 +104,18 @@
   </url>
   
   <url>
-    <loc>http://coreypetty.com/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <loc>http://coreypetty.com/publication/book/book_any_folder_name_1/</loc>
+    <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/misc/misc_any_folder_name_1/</loc>
+    <lastmod>2016-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/article/article_dissertation/</loc>
+    <lastmod>2014-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
