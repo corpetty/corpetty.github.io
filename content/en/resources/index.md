@@ -3,6 +3,7 @@ title: "Resources"
 date: 2020-10-27T15:43:38+09:00
 description: A constantly currated list of useful resources over various subjects
 enableBio: false
+enableWhoami: False
 ---
 
 ## Podcasts
