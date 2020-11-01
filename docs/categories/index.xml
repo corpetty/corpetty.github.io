@@ -14,7 +14,7 @@
     <managingEditor>corey@petty.services (Corey Petty, PhD)</managingEditor>
     <webMaster>corey@petty.services (Corey Petty, PhD)</webMaster>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 18 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://coreypetty.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@
       <item>
         <title>blockchain</title>
         <link>http://coreypetty.com/categories/blockchain/</link>
-        <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
         <author>corey@petty.services (Corey Petty, PhD)</author>
         
         <guid>http://coreypetty.com/categories/blockchain/</guid>
@@ -43,10 +43,28 @@
       <item>
         <title>explainer</title>
         <link>http://coreypetty.com/categories/explainer/</link>
-        <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
         <author>corey@petty.services (Corey Petty, PhD)</author>
         
         <guid>http://coreypetty.com/categories/explainer/</guid>
+        <description></description>
+        
+        <dc:creator>Corey Petty, PhD</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>security</title>
+        <link>http://coreypetty.com/categories/security/</link>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+        <author>corey@petty.services (Corey Petty, PhD)</author>
+        
+        <guid>http://coreypetty.com/categories/security/</guid>
         <description></description>
         
         <dc:creator>Corey Petty, PhD</dc:creator>
