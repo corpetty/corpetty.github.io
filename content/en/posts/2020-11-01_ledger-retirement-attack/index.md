@@ -65,7 +65,7 @@ So in order for the attacker (the Ledger employee) to successfully pull this off
 - The Ledger manufacturing process needs to pre-load seed phrases, and an employee will need to be able to infuence this process.
 - The attacker will need access to your Ledger device password (if you optionally choose to have one)
 
-Let's take care of that first one real quick. Ledger employees do not pre-upload seed phrases on devices during manufacturing. Instead, they are generated on the device using a <abbr title="True Random Number Generator">TRNG</abbr> inside the devices Secure Element{{<cite bib="ledgerDocumentation">}} (a physically seperated, higher security chip on the device). 
+Let's take care of that first one real quick. Ledger employees do not pre-upload seed phrases on devices during manufacturing. Instead, they are generated on the device using a <abbr title="True Random Number Generator">TRNG</abbr> inside the devices Secure Element{{<cite bib="ledgerdocumentation">}} (a physically seperated, higher security chip on the device). 
 
 {{< notice info >}}
 The Ledger manufacturing process has no control over the seed phrases that are generated on the device
