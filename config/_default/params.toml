@@ -4,7 +4,7 @@ description = "A site for Corey's stuff."
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
-meta_image = ""
+meta_image = "https://pbs.twimg.com/profile_images/1175425648665473024/u_4ubWJ7.jpg"
 themecolor = ""
 
 themeOptions = ["dark", "light", "hacker", "solarized", "kimbie"]
@@ -50,7 +50,7 @@ pubPaginate = 20
 myname = "Corey Petty, PhD"
 email = "corey@petty.services"
 whoami = "Developer/Podcaster/Researcher"
-bioImageUrl = "https://pbs.twimg.com/profile_images/1175425648665473024/u_4ubWJ7_400x400.jpg"
+bioImageUrl = "https://pbs.twimg.com/profile_images/1175425648665473024/u_4ubWJ7.jpg"
 useGravatar = false
 location = "Maryland, USA"
 organization = "Status.im"
@@ -177,7 +177,7 @@ commento = false
   xmpp = ""
   dev-to = ""
   gitea = ""
-  google-scholar = ""
+  google-scholar = "https://scholar.google.com/citations?user=OE1284QAAAAJ&hl=en&authuser=2"
 
 [donationOptions]
   enable = true

@@ -6,6 +6,7 @@ shorttitle: "Donec vel ipsum vulputate"
 isbn: "978-1-311-04245-3"
 copyright: "All rights reserved"
 title: "Donec vel ipsum vulputate, dapibus magna quis"
+draft: true
 ENTRYTYPE: "book"
 enableToc: False
 enableWhoami: True

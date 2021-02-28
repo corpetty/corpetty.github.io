@@ -3,6 +3,7 @@ title = "Schnorr and Taproot make it into Bitcoin codebase. So what?"
 description = "A commentary on the news that Schnorr and Taproot have been incorporated into Bitcoin codebase."
 date = "2020-10-18"
 thumbnail = ""
+enableWhoami = true
 categories = [
   "blockchain", "explainer"
 ]
