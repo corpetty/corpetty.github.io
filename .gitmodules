@@ -1,6 +1,6 @@
 [submodule "themes/zzo"]
 	path = themes/zzo
-	url = https://github.com/zzossig/hugo-theme-zzo
+	url = https://github.com/corpetty/hugo-theme-zzo
 [submodule "hugo-theme-zzo"]
 	path = hugo-theme-zzo
 	url = https://github.com/corpetty/hugo-theme-zzo
