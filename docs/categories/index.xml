@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Categories on Corey Petty&#39;s Personal Website</title>
+    <link>http://coreypetty.com/categories/</link>
+    <description>Recent content in Categories on Corey Petty&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>corey@petty.services (Corey Petty, PhD)</managingEditor>
+    <webMaster>corey@petty.services (Corey Petty, PhD)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://coreypetty.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>blockchain</title>
+        <link>http://coreypetty.com/categories/blockchain/</link>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+        <author>corey@petty.services (Corey Petty, PhD)</author>
+        
+        <guid>http://coreypetty.com/categories/blockchain/</guid>
+        <description></description>
+        
+        <dc:creator>Corey Petty, PhD</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>explainer</title>
+        <link>http://coreypetty.com/categories/explainer/</link>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+        <author>corey@petty.services (Corey Petty, PhD)</author>
+        
+        <guid>http://coreypetty.com/categories/explainer/</guid>
+        <description></description>
+        
+        <dc:creator>Corey Petty, PhD</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>security</title>
+        <link>http://coreypetty.com/categories/security/</link>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+        <author>corey@petty.services (Corey Petty, PhD)</author>
+        
+        <guid>http://coreypetty.com/categories/security/</guid>
+        <description></description>
+        
+        <dc:creator>Corey Petty, PhD</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

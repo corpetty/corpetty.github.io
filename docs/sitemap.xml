@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://coreypetty.com/showcase/blockchain/py-etherscan-api/</loc>
+    <lastmod>2020-01-19T21:13:42+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/posts/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/categories/blockchain/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/categories/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/categories/explainer/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/hardware-wallets/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/posts/2020-11-01_ledger-retirement-attack/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/ledger/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/retirement-attack/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/security/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/categories/security/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/</loc>
+    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/about/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/resources/</loc>
+    <lastmod>2020-10-27T15:43:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/bitcoin/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/schnorr/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/taproot/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/tags/tapscript/</loc>
+    <lastmod>2020-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/article/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/book/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/misc/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/</loc>
+    <lastmod>2020-03-05T14:08:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/showcase/blockchain/</loc>
+    <lastmod>2020-01-19T21:04:11+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/showcase/</loc>
+    <lastmod>2020-01-19T15:43:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/gallery/</loc>
+    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/gallery/pets/</loc>
+    <lastmod>2019-10-31T10:20:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/article/article_2018-jcp-ozone-neural-networks/</loc>
+    <lastmod>2018-07-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/article/article_2017-jpca-ch3sh-h/</loc>
+    <lastmod>2017-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/article/article_dissertation/</loc>
+    <lastmod>2014-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/publication/article/article_2013-jpc-ho2/</loc>
+    <lastmod>2013-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://coreypetty.com/series/</loc>
+  </url>
+  
+</urlset>

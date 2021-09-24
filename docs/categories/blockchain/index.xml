@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>blockchain on Corey Petty&#39;s Personal Website</title>
+    <link>http://coreypetty.com/categories/blockchain/</link>
+    <description>Recent content in blockchain on Corey Petty&#39;s Personal Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>corey@petty.services (Corey Petty, PhD)</managingEditor>
+    <webMaster>corey@petty.services (Corey Petty, PhD)</webMaster>
+    <copyright>©2021, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://coreypetty.com/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Is a Ledger hardware wallet succeptible to a &#34;retirement attack?&#34;</title>
+        <link>http://coreypetty.com/posts/2020-11-01_ledger-retirement-attack/</link>
+        <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+        <author>corey@petty.services (Corey Petty, PhD)</author>
+        <atom:modified>Sun, 01 Nov 2020 00:00:00 +0000</atom:modified>
+        <guid>http://coreypetty.com/posts/2020-11-01_ledger-retirement-attack/</guid>
+        <description>Introduction After an interview with Toby Simpson, the COO of fetch.ai, on Hashing It Out (will be released shortly), I shared a blog article of his that was mentioned in The Bitcoin Podcast slack for others to read it. It is a post about the consequences of &amp;ldquo;becoming a bank&amp;rdquo; that aren&amp;rsquo;t often talked about, and gives some guidance on how to increase your level of personal security by setting up a hardware wallet.</description>
+        
+        <dc:creator>Corey Petty, PhD</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>ledger</category>
+            
+          
+            
+              <category>hardware wallets</category>
+            
+          
+            
+              <category>security</category>
+            
+          
+            
+              <category>retirement attack</category>
+            
+          
+        
+        
+          
+            
+              <category>blockchain</category>
+            
+          
+            
+              <category>explainer</category>
+            
+          
+            
+              <category>security</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Schnorr and Taproot make it into Bitcoin codebase. So what?</title>
+        <link>http://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/</link>
+        <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+        <author>corey@petty.services (Corey Petty, PhD)</author>
+        <atom:modified>Sun, 18 Oct 2020 00:00:00 +0000</atom:modified>
+        <guid>http://coreypetty.com/posts/2020-10-18_bitcoin-schnorr-taproot/</guid>
+        <description>As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This one happened to catch my eye as it&#39;s an update I&#39;ve been waiting for; Bitcoin is getting two major improvements in historic code update from Decrypt. I immediately said we would talk about this in the upcoming The Bitcoin Podcast episode roundtable. But first, I&#39;d wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don&#39;t listen the podcast, but are still interested.</description>
+        
+        <dc:creator>Corey Petty, PhD</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>taproot</category>
+            
+          
+            
+              <category>Bitcoin</category>
+            
+          
+            
+              <category>schnorr</category>
+            
+          
+            
+              <category>tapscript</category>
+            
+          
+        
+        
+          
+            
+              <category>blockchain</category>
+            
+          
+            
+              <category>explainer</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
