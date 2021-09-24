@@ -1757,8 +1757,7 @@
   <p> </p>
 </d-abstract>
 <h2 id="introduction">Introduction</h2>
-<p>After an interview with Toby Simpson, the COO of <a href="https://fetch.ai">fetch.ai</a>, on Hashing It Out (will be released shortly), I shared a blog article<d-cite key="simpsonletsallbeabank"></d-cite>
- of his that was mentioned in <a href="https://thebitcoinpodcast.com">The Bitcoin Podcast</a> slack for others to read it. It is a post about the consequences of &ldquo;becoming a bank&rdquo; that aren&rsquo;t often talked about, and gives some guidance on how to increase your level of personal security by setting up a hardware wallet. It is a good article, I&rsquo;d suggest you read it.</p>
+<p>After an interview with Toby Simpson, the COO of <a href="https://fetch.ai">fetch.ai</a>, on Hashing It Out (will be released shortly), I shared a blog article<d-cite key="simpsonletsallbeabank"></d-cite> of his that was mentioned in <a href="https://thebitcoinpodcast.com">The Bitcoin Podcast</a> slack for others to read it. It is a post about the consequences of &ldquo;becoming a bank&rdquo; that aren&rsquo;t often talked about, and gives some guidance on how to increase your level of personal security by setting up a hardware wallet. It is a good article, I&rsquo;d suggest you read it.</p>
 <p>One of the reactions from the slack was about technical concerns of Ledger hardware wallets, quoted below:</p>
 <blockquote>
 <p>Corey thanks for sharing, interesting read. As a non technical noob I’m fairly confident of my ledger wallet set up if my small bag X10 or more.</p>
@@ -1779,15 +1778,13 @@
 <li>The Ledger manufacturing process needs to pre-load seed phrases, and an employee will need to be able to infuence this process.</li>
 <li>The attacker will need access to your Ledger device password (if you optionally choose to have one)</li>
 </ul>
-<p>Let&rsquo;s take care of that first one real quick. Ledger employees do not pre-upload seed phrases on devices during manufacturing. Instead, they are generated on the device using a <abbr title="True Random Number Generator">TRNG</abbr> inside the devices Secure Element<d-cite key="ledgerdocumentation"></d-cite>
- (a physically seperated, higher security chip on the device).</p>
+<p>Let&rsquo;s take care of that first one real quick. Ledger employees do not pre-upload seed phrases on devices during manufacturing. Instead, they are generated on the device using a <abbr title="True Random Number Generator">TRNG</abbr> inside the devices Secure Element<d-cite key="ledgerdocumentation"></d-cite> (a physically seperated, higher security chip on the device).</p>
 <div class="notices info" data-title="Info">
   The Ledger manufacturing process has no control over the seed phrases that are generated on the device
 </div>
 <p>Note that this means you <em>should never use a hardware wallet that comes with a seed phrase pre-loaded on it!</em></p>
 <p>If you are still uncomfortable and do not trust this, you can always generate a seed phrase yourself and use the recovery process of the ledger to load it manually on the device.</p>
-<p>Additionally (to the second point), you can optionally add a password to the device, which is required when turning on the Ledger to do anything. When doing this, you fundamentally change the derived addresses associated with the seed phrase, as it is a part of the key derivation process<d-cite key="ledgersupport"></d-cite>
-. That means, you can have any number of &ldquo;address sets&rdquo; based on the password you use with a single seed phrase. It follows that if an attacker somehow gets access to your seed phrase, in order for them to get access to your funds, he/she <strong>must also know your password</strong>.</p>
+<p>Additionally (to the second point), you can optionally add a password to the device, which is required when turning on the Ledger to do anything. When doing this, you fundamentally change the derived addresses associated with the seed phrase, as it is a part of the key derivation process<d-cite key="ledgersupport"></d-cite>. That means, you can have any number of &ldquo;address sets&rdquo; based on the password you use with a single seed phrase. It follows that if an attacker somehow gets access to your seed phrase, in order for them to get access to your funds, he/she <strong>must also know your password</strong>.</p>
 <h2 id="how-does-a-multisig-increase-my-security">How does a multisig increase my security?</h2>
 <p>I won&rsquo;t spend too much time explaining the details of the multisig, only quickly comment on their interaction with a hardware wallet.</p>
 <p>In general, a multisig address is defined by a single address &ldquo;owned&rdquo; by multiple addresses (of which can actually also be a multisig). In order to pass a transcation from the main address, N-of-M of the owners are required to approve it. This distributes the risk across multiple other addresses. I will also not go into the diferent implementations and their limitations in this article. So this allows for a couple different scenarios (none exhaustive):</p>

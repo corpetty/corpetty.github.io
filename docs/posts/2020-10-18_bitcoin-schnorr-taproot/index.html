@@ -1756,7 +1756,8 @@
       <d-abstract>
   <p>As per usual, folks were sending interesting news in he Bitcoin Podcast slack. This one happened to catch my eye as it's an update I've been waiting for; Bitcoin is getting two major improvements in historic code update from Decrypt. I immediately said we would talk about this in the upcoming The Bitcoin Podcast episode roundtable. But first, I'd wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don't listen the podcast, but are still interested. </p>
 </d-abstract>
-<p>As per usual<d-footnote>some text here</d-footnote>, folks were sending interesting news in he Bitcoin Podcast slack. This one happened to catch my eye as it&rsquo;s an update I&rsquo;ve been waiting for; <a href="https://decrypt.co/45138/bitcoin-is-getting-two-major-improvements-in-historic-code-update">Bitcoin is getting two major improvements in historic code update</a> from Decrypt. I immediately said we would talk about this in the upcoming The Bitcoin Podcast episode roundtable. But first, I&rsquo;d wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don&rsquo;t listen the podcast, but are still interested.</p>
+<p>As per usual<d-footnote>some text here</d-footnote>
+, folks were sending interesting news in he Bitcoin Podcast slack. This one happened to catch my eye as it&rsquo;s an update I&rsquo;ve been waiting for; <a href="https://decrypt.co/45138/bitcoin-is-getting-two-major-improvements-in-historic-code-update">Bitcoin is getting two major improvements in historic code update</a> from Decrypt. I immediately said we would talk about this in the upcoming The Bitcoin Podcast episode roundtable. But first, I&rsquo;d wanted to take some notes and jot down a few things so that I can share what these technologies are, what they potentially mean, and the remaining road ahead for those that don&rsquo;t listen the podcast, but are still interested.</p>
 <p>For those who would like to listen to our conversation about this on The Bitcoin podcast, here&rsquo;s the episode:</p>
 
     <iframe 
@@ -1770,21 +1771,15 @@
 
 <p>I&rsquo;m also trying to write more (hence this website / blog / resource / whatever).</p>
 <h2 id="what-happened">What happened?</h2>
-<p>For those that don&rsquo;t know, the Bitcoin ecosystem has been working on some protocol level improvements that drastically expand the capabilities of the system. On October 15th, 2020, a <a href="https://github.com/bitcoin/bitcoin/pull/19953">pull request</a> was merged into the Bitcoin Core codebase which adds a bunch of new features which have been under review for quite a long time. Namely, Schnorr signatures<d-cite key="BIP340-schnorr"></d-cite>
-, Taproot<d-cite key="BIP341-taproot"></d-cite>
-, and Tapscript<d-cite key="BIP342-tapscript"></d-cite>
-.</p>
+<p>For those that don&rsquo;t know, the Bitcoin ecosystem has been working on some protocol level improvements that drastically expand the capabilities of the system. On October 15th, 2020, a <a href="https://github.com/bitcoin/bitcoin/pull/19953">pull request</a> was merged into the Bitcoin Core codebase which adds a bunch of new features which have been under review for quite a long time. Namely, Schnorr signatures<d-cite key="BIP340-schnorr"></d-cite>, Taproot<d-cite key="BIP341-taproot"></d-cite>, and Tapscript<d-cite key="BIP342-tapscript"></d-cite>.</p>
 <h2 id="what-do-those-words-mean">What do those words mean?</h2>
 <p>Many have already asked me what these different changes are, so I&rsquo;m going to try and conceptually explain them at a high level:</p>
 <h3 id="schnorr-signatures">Schnorr Signatures</h3>
-<p>To start, I did a <a href="http://thebitcoinpodcast.com/hashing-it-out-51/">Hashing It Out Interview</a> with Andrew Poelstra about a year ago that described Schnorr signatures<d-cite key="schnorrwikipedia"></d-cite>
- with some detail, I&rsquo;d recommend checking it out. For the lazy, or those that don&rsquo;t like audio content, here&rsquo;s an overview:</p>
-<p>Currently, the Bitcoin protocol uses digital signatures to sign messages. The algorithm used to do this is ECDSA, specifically for keypairs on the secp256k1 curve<d-cite key="BIP340-schnorr,khatwani2020schnorr"></d-cite>
-. The proposal is to extend signature schemes to include the ability to sign messages via the Schnorr algorithm (on the same curve). At a high level, <em>this allows a message that is signed by multiple keys to be aggregated into a single signature</em>, which results in a more efficient message size. This algorithm also has efficiency gains in verification and authentication processes.</p>
+<p>To start, I did a <a href="http://thebitcoinpodcast.com/hashing-it-out-51/">Hashing It Out Interview</a> with Andrew Poelstra about a year ago that described Schnorr signatures<d-cite key="schnorrwikipedia"></d-cite> with some detail, I&rsquo;d recommend checking it out. For the lazy, or those that don&rsquo;t like audio content, here&rsquo;s an overview:</p>
+<p>Currently, the Bitcoin protocol uses digital signatures to sign messages. The algorithm used to do this is ECDSA, specifically for keypairs on the secp256k1 curve<d-cite key="BIP340-schnorr,khatwani2020schnorr"></d-cite>. The proposal is to extend signature schemes to include the ability to sign messages via the Schnorr algorithm (on the same curve). At a high level, <em>this allows a message that is signed by multiple keys to be aggregated into a single signature</em>, which results in a more efficient message size. This algorithm also has efficiency gains in verification and authentication processes.</p>
 <p>For instance, if you&rsquo;d like to send a transaction that requires multiple UTXOs, you would previously have to include every signature of each UXTO included in the message (this is very common occurrence as HD wallets are standard practice). The Schnorr algorithm turns all of those signatures into a single signature.</p>
 <h3 id="taproot">Taproot</h3>
-<p>Taproot is an improvement on a different technology called <code>Merkelized Abstract Syntax Tree</code> or MAST. In short, a MAST allows you to stack Bitcoin scripts into a Merkle tree, expanding the possible things a Bitcoin txn is capable of doing<d-cite key="khatwani2020taproot"></d-cite>
-.</p>
+<p>Taproot is an improvement on a different technology called <code>Merkelized Abstract Syntax Tree</code> or MAST. In short, a MAST allows you to stack Bitcoin scripts into a Merkle tree, expanding the possible things a Bitcoin txn is capable of doing<d-cite key="khatwani2020taproot"></d-cite>.</p>
 <h3 id="tapscript">Tapscript</h3>
 <p>Tapscript is a short name for referring to the updates required to the validation process in Bitcoin. Taproot is an update to the Bitcoin script language. More specifically, it aims at including the previously mentioned technologies available so that Bitcoin is capable of validating transactions that use them.</p>
 <h2 id="what-happens-next">What happens next?</h2>
@@ -2163,6 +2158,13 @@
     <div class="grow"></div>
 <nav class="pagination-single">
   
+    
+      <a href="http://coreypetty.com/posts/medium/corpetty/how-to-understand-what-people-mean-when-they-say-were-probably-in-a-simulation-f838bad0a92/" class="pagination-single__left">
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
+        </div>
+        <div class="pagination-single__left-title">How to Understand What People Mean When They Say “We’re Probably in a Simulation.”</div>      
+      </a>
     
     <div class="grow"></div>
     
