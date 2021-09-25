@@ -45,4 +45,4 @@ Hope I answered his question in some way, shape, or form. I tend to go off on my
 
 Here’s a pdf of my “calculations” I did in Mathematica to think this up. They aren’t difficult, but are provided for transparency sake. Hit me up if you think I’m wrong about something, I’m sure some of you do.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__6MeQtaNOyBFc__iK5Oq5NrQ.png)
+![](/images/medium/1__6MeQtaNOyBFc__iK5Oq5NrQ.png)

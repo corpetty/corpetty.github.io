@@ -4,6 +4,7 @@ description: '“Blockchain” is all the rage, but why?'
 date: ''
 categories: []
 keywords: []
+draft: true
 slug: ''
 ---
 
@@ -13,7 +14,7 @@ Many people will have varying answers to that question, and a lot of those answe
 
 #### The goal of this post is to show you how Blockchain, in particular the Ethereum blockchain, fundamentally changes the idea of trust.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__6ZYuKY__n6ofF9f2N7BfMSw.png)
+![](/images/medium/1__6ZYuKY__n6ofF9f2N7BfMSw.png)
 
 In order to understand how something is disrupted, you must first understand the original thing. So let’s take a look at the traditional trust model which is based on the “client/server” relationship. As the internet has grown and developed to allow businesses to communicate and service their clients all over the world, the infrastructure that enabled this growth always imposed a specific relationship between the service provider and the client. That is, in order to interact with a service that leveraged the internet, you had to create and store credentials and all relevant information with them on their servers, and you were forced to trust them with that information. This imposed relationship centralized people’s personal information, making it vulnerable to attack, as well as adding cost to the business for securing and maintaining it.
 
@@ -21,7 +22,7 @@ To use a service, you had to **put your trust in the people** that ran that serv
 
 All innovation and progress since the internet began worked towards strengthening this relationship. We’ve made it faster and more secure. We’ve added layers of convenience to users, but at the end of the day if two users of a service want to communicate, they **_MUST_** go through the service’s mediation. It was not planned to create centralized points of failure and mandatory mediation of communication, it was just how the internet worked… until the blockchain was invented.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__9cOJI028O2T2RqOfN7dH6A.png)
+![](/images/medium/1__9cOJI028O2T2RqOfN7dH6A.png)
 
 With the first wide scale implementation of blockchain technology, Bitcoin showed us that a new trust model has emerged that doesn’t rely on trusting people to properly store and mediate your communication. Instead, **the trust is put solely into the system,** which has strong security promises baked into the way it works. The cryptography that blockchain is built upon allows for true peer-2-peer value transfer, a central data store with universal access, built in tamper evidence, sovereignty of your digital identity, and many other things. The trustless nature of how the entire network agrees on the state of the blockchain and validates the new information being added ensures no one can hijack the network or change the data stored within. Ethereum’s implementation of smart contracts then adds another layer of trustlessness, allowing businesses to create more complex services while not having to be responsible for the personal data of their users. 
 
@@ -70,7 +71,7 @@ I would like to stress that a dApp should feel like a normal application, but it
 
 Up till now, we have discussed how the open and public Ethereum blockchain expands upon the traditional trust model that the client/server infrastructure of the internet shepherds. While working in the former, you put all of your trust into the blockchain system. If using the later, all of your trust is placed into the people that run the system. Life is not black and white, and luckily neither are your options when it comes to how you can place your trust. The protocol of the Ethereum network is a completely open-source project which can be copied over for private or semi private purposes, but with certain trade offs. This is typically referred to public vs. private blockchains. 
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__LUxm1N__u0FQ3adDEdho32Q.png)
+![](/images/medium/1__LUxm1N__u0FQ3adDEdho32Q.png)
 
 The Ethereum main net is a completely open and trustless network, a true public blockchain. The token associated with the network, the Ether, is used to fuel transactions, and the computations that smart contracts perform, and has a relative value. Anyone who builds on or uses the Ethereum main net must use Ether to do so. As a public blockchain, all data stored within is public as well, despite being able to restrict access to changing the data. Any smart contract built on the network can also leverage any smart contracts that are currently deployed, created a drastic synergistic effect as the number of dApps grow. But because the network is completely trustless, maintaining a fault tolerant and attack resistant is relatively slow and expensive (per transaction cost) when compared to traditional databases. Trustlessness is not easy or cheap (yet). 
 
@@ -82,7 +83,7 @@ What if you have a group of entities that need to agree on the same set of data,
 
 This section is to bring you back to reality. You may have heard more about Blockchain lately, and less about Bitcoin. It is important to keep in mind the relative differences of the space in order to understand how much attention you should pay to various projects or blockchains. One metric to do so is simply the market capitalization of the token supply of a blockchain, _i.e._ how much money is the network worth? Below is a chart showing the top 10 cryptocurrencies by market capitalization as of mid April, 2017. 
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__sn3ou4zdX0ctGp35RIHE9A.png)
+![](/images/medium/1__sn3ou4zdX0ctGp35RIHE9A.png)
 
 We can see that in terms of money, Bitcoin is vastly ahead of everyone else. Why? Well for one, Bitcoin is older. Bitcoin started in 2009 whereas Ethereum started in 2015. That is 6 years of infrastructure building, brand awareness, investment, and development that has happened before Ethereum even got started. 
 

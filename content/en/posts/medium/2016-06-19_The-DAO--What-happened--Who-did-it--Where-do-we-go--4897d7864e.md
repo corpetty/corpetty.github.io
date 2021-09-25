@@ -108,7 +108,7 @@ This idea, the “science of secure, smart contracts,” is what I find to be in
 
 ### About the author
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__J3UkG8G7GPGmiVm2iVawTA.png)
+![](/images/medium/1__J3UkG8G7GPGmiVm2iVawTA.png)
 
 Corey Petty is a co-founder and host of [The Bitcoin Podcast](http://www.thebitcoinpodcast.com), an approachable conversation to the cryptocurrency revolution.
 

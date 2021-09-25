@@ -4,7 +4,6 @@ description: ''
 date: '2016-05-23T17:05:46.105Z'
 categories: []
 keywords: []
-draft: true
 slug: >-
   /@corpetty/great-general-overview-of-the-current-state-of-ethereum-833aebe08612
 ---

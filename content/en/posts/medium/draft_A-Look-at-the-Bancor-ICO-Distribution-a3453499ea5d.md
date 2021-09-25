@@ -4,8 +4,8 @@ description: ''
 date: ''
 categories: []
 keywords: []
-slug: ''
 draft: true
+slug: ''
 ---
 
   
@@ -14,4 +14,4 @@ draft: true
 
   
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__0Rgw37wtGmlKS273whH9lA.png)
+![](/images/medium/1__0Rgw37wtGmlKS273whH9lA.png)

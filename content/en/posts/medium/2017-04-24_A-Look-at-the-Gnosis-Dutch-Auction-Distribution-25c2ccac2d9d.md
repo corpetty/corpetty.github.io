@@ -21,11 +21,11 @@ So I found the Gnosis wallet address ([here](https://etherscan.io/address/0x851b
 
 Below we can see the amount of ETH deposited into the address, separated by block number:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__VpswyzybZfYFf__fOwQt__VA.png)
+![](/images/medium/1__VpswyzybZfYFf__fOwQt__VA.png)
 
 We can see that two of the blocks have the lion’s share of the investment, which begs one to see what the “user” distribution looks like. So then I broke up the individual investments in to separate categories. Each category is an investment in each order of magnitude of Ether.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__Dt0LI3Sw8OYe1Hhbom0eow.png)
+![](/images/medium/1__Dt0LI3Sw8OYe1Hhbom0eow.png)
 
 So this plot shows us that over 40% of ETH invested in Gnosis was done by two single transactions. Since we are looking at the internal transactions of the contract address, it is not immediately apparent who they came from. Potentially exchanges, potentially Gnosis, potentially a super whale. More analysis would need to be done.
 

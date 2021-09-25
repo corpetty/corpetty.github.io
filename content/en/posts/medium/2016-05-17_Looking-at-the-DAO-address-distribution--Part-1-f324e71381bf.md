@@ -39,7 +39,7 @@ max      201911.999580
 
 hm… that’s quite a range, the 75th percentile is 85 ETH, but the max is over 200k ETH?! I think we need to dive a bit deeper to see who is putting money into this thing, and how much. But first, let’s just take a look at how this thing has grown since its inception. Here is a chart of the amount of Ether invested as a function of block number:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__OKXCm4Ywmu71kVghRuGw__w.png)
+![](/images/medium/1__OKXCm4Ywmu71kVghRuGw__w.png)
 
 #### What kind of people are in The DAO?
 
@@ -65,7 +65,7 @@ Nope…
 
 Let’s take a look at what these numbers look like when each address distribution is paired with how much of the total voting pool they have “control over.” That is to say, their portion of tokens have this much weight on votes, when compared with everyone else.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__M9ZJPJUjS0EwW4yLDFZG4Q.png)
+![](/images/medium/1__M9ZJPJUjS0EwW4yLDFZG4Q.png)
 
 Think of this chart in this way: Each blue bar has control of the orange bar next to it when voting. This looks a bit more realistic, if we are to assume that the people who have invested into the DAO is a microcosm of real life. The wealthy few (top 1% of addresses) control over 55% of the voting power of proposals, while everyone who contributed 100 Ether or less (more than 66%) control barely over 2% of the total tokens.
 
@@ -81,7 +81,7 @@ I, personally, am betting that those with large investments in The DAO will do w
 
 I’ve considered other interesting trends in the data and played with the transaction data quite a bit more. But for now, this is probably the best place to start, and other information may distract from the conversation. As a finisher, here are the addresses of who invested over 100000 Ether:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__lm08mFCKoitTmPGF14zyfA.png)
+![](/images/medium/1__lm08mFCKoitTmPGF14zyfA.png)
 
 Welcome to the future, let’s bring everyone with us.
 

@@ -6,7 +6,6 @@ description: >-
 date: '2016-05-24T22:24:00.162Z'
 categories: []
 keywords: []
-draft: true
 slug: >-
   /@corpetty/if-what-you-do-transcends-the-archetypes-of-its-predecessors-then-yes-you-can-f86298b658a1
 ---

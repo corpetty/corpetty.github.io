@@ -9,7 +9,7 @@ keywords: []
 slug: /@corpetty/a-petty-crypto-review-cardano-a2c99fd413af
 ---
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__2Doksnnu0cH54tgWI1xqTA.png)
+![](/images/medium/1__2Doksnnu0cH54tgWI1xqTA.png)
 
 So I get hit up quite frequently about various coins and whether or not they’re worth looking into, are a scam, are legit, etc. So I’ve decided to try and pick some of the coins I get asked about most that I don’t already know about, and read a bit about them, and give some off-the-cuff opinions on their validity to refer my friends and family to. I hope others find these useful.
 
@@ -50,10 +50,10 @@ I bought using the Binance exchange. I’ve been pretty happy so far with it. If
 
 [https://www.binance.com/?ref=15791278](https://www.binance.com/?ref=15791278)
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
+![](/images/medium/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
 
 ETH and ERC20 tokens: 0x8F53781799515e5dc8f5D00C528940cAe99aC969
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__GaRyRFam9FLWhNikP8GDHw.png)
+![](/images/medium/1__GaRyRFam9FLWhNikP8GDHw.png)
 
 BTC: 1DXmuHMufPAUEuRUwKMNLqiMqmWQyKmZP6

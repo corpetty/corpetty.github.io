@@ -9,7 +9,7 @@ keywords: []
 slug: /@corpetty/the-role-of-randomness-in-proof-of-work-mining-3827a809f745
 ---
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__nkwL8q__9Sz1PMMqT0XFGmg.png)
+![](/images/medium/1__nkwL8q__9Sz1PMMqT0XFGmg.png)
 
 I hear people throw shade at idea of Proof of Stake (PoS) protocols quite often. I think that most of these comments are founded in false assumptions, which inevitably lead them to false conclusions. That’s a deep amount of work, which requires some groundwork first. This is some groundwork, so this is about abstracting away some of the roles Proof of Work (PoW) plays in blockchain protocols, and looking at how randomness is at the heart of them, and where that randomness comes from. Hopefully in later articles I can get into some PoS implementations and how they relate. Note: “Chaos” is probably a more apt technical definition than “Randomness” in the context of this article, but it is sufficient, and people are more comfortable with the idea of randomness, and not so much with chaos theory.
 
@@ -87,10 +87,10 @@ If you like it, you can also tip me at the following addresses, because I’m ce
 Here is my Binance affiliate link, I get a portion of your trade profits, so do good!  
 [https://www.binance.com/?ref=15791278](https://www.binance.com/?ref=15791278)
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
+![](/images/medium/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
 
 ETH and ERC20 tokens: 0x8F53781799515e5dc8f5D00C528940cAe99aC969
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__GaRyRFam9FLWhNikP8GDHw.png)
+![](/images/medium/1__GaRyRFam9FLWhNikP8GDHw.png)
 
 BTC: 1DXmuHMufPAUEuRUwKMNLqiMqmWQyKmZP6

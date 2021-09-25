@@ -18,7 +18,7 @@ In all, Gavin submitted changes to 3 files in the Parity client: _account.rs_, _
 
 #### account.rs
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__S3HhwMykwyYAKvaCKPJLFg.png)
+![](/images/medium/1__S3HhwMykwyYAKvaCKPJLFg.png)
 
 The account.rs file has two sections with additions to it. He creates a function, and then creates a test for that function (good programming practices) Let’s start with what that function does.
 
@@ -29,13 +29,13 @@ First off, we can see that this is inside the Account structure, which means tha
 *   **Line 113:** Here we essentially delete the hash of the account’s old code, by setting it to \`None\`
 *   **Line 114–115:** Now we re-run the function \`init\_code\` with the new code we want to implement. \`init\_code\` is defined elsewhere in the Account struct, and is passed to this function through the \`self\` object. The end bracket just ends the definition of our new function \`reset\_code\`.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7EvfjOqLbqcBUb8ms8jODg.png)
+![](/images/medium/1__7EvfjOqLbqcBUb8ms8jODg.png)
 
 This section of changes is a test function to test the above newly defined \`reset\_code\` function we’ve just talked about. I will skip the line-by-line definition of this part, because it isn’t adding new functionality. Please note that I am not discarding this as not important, **_it is incredibly important_**. It just isn’t new functionality, it is only checking to make sure the previously defined new functionality works as intended.
 
 #### ethash.rs
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__TUSpqzZLCv07h1j4t__uJdw.png)
+![](/images/medium/1__TUSpqzZLCv07h1j4t__uJdw.png)
 
 *   **Line 135:** This creates a new function called \`on\_new\_block\` which takes in all variables and methods previously set on the parent \`ethash\` referred to as \`self\`. It also takes in the new block, and all its respective variables and methods called \`block\`.
 *   **Line 136:** This sets the block number in which the hard fork would take place in the future to a variable appropriately called \`dao\_fork\_blknum\`.
@@ -56,7 +56,7 @@ This section of changes is a test function to test the above newly defined \`res
 
 #### state.rs
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__N1__V__WTCsPrswbtQFhrdGw.png)
+![](/images/medium/1__N1__V__WTCsPrswbtQFhrdGw.png)
 
 *   Line 211: This just changes wording of comments to be consistent with other changes.
 *   Line 217: This is a comment line letting us know what the new function is supposed to do. This new function is supposed to reset the code of account \`a\` (an input) to newly defined code \`code\` (also an input).
@@ -75,7 +75,7 @@ Edits:
 
 ### About the author
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__J3UkG8G7GPGmiVm2iVawTA.png)
+![](/images/medium/1__J3UkG8G7GPGmiVm2iVawTA.png)
 
 Corey Petty is a co-founder and host of [The Bitcoin Podcast](http://www.thebitcoinpodcast.com), an approachable conversation to the cryptocurrency revolution.
 

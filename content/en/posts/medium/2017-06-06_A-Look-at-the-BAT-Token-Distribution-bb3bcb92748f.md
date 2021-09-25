@@ -44,17 +44,17 @@ Practically speaking, the ICO was finished after 3 blocks. 99.9996% of the desir
 
 Note that some have said the large transactions were the team itself that were the reserved pools. **THIS IS NOT CORRECT**. These are investors buying from the Token sale. The reserved pool amounts are outside of the tokens that were for sale. Go look at the website, it clearly states the breakdown.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__q4C1XP7__Y0PsIMQ02LRCzA.png)
+![](/images/medium/1__q4C1XP7__Y0PsIMQ02LRCzA.png)
 
 Some lucky/smart bastard got two transactions in! His address is [0x001934d46ef025ec18f292f4c5f42ec85f2deb26](https://etherscan.io/address/0x001934d46ef025ec18f292f4c5f42ec85f2deb26) and here are the deets:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__f9BHXXLiqNbpDZnEWCVG6A.png)
+![](/images/medium/1__f9BHXXLiqNbpDZnEWCVG6A.png)
 
 Ok, let’s look at the investor distribution, like we’ve done in the other breakdowns. Even though its a bit of a misnomer this time, it’s kinda my thing now, I guess. The first is the table, the second is the plot:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__b6eyWYYiDeTxRZUaNPDbJg.png)
+![](/images/medium/1__b6eyWYYiDeTxRZUaNPDbJg.png)
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__CFFNZXTqlov4R6AYYIYFOg.png)
+![](/images/medium/1__CFFNZXTqlov4R6AYYIYFOg.png)
 
 With only a few people getting into the ICO, its quite clear the vast majority of people who actually got to invest were large ETH amount contributors, and they were prepared.
 
@@ -95,10 +95,10 @@ If you don’t like slack, hit me up on twitter at `@corpetty` or email me at pe
 
 Throw me some duckets of you like what I’m doing, and have some to spare. The donations definitely help me stay motivated to do these:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
+![](/images/medium/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
 
 ETH and ERC20 tokens: 0x8F53781799515e5dc8f5D00C528940cAe99aC969
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__GaRyRFam9FLWhNikP8GDHw.png)
+![](/images/medium/1__GaRyRFam9FLWhNikP8GDHw.png)
 
 BTC: 1DXmuHMufPAUEuRUwKMNLqiMqmWQyKmZP6

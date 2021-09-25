@@ -9,7 +9,7 @@ keywords: []
 slug: /@corpetty/the-merkle-ization-of-individuality-e53618de835d
 ---
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__Up3aVxawTqsRpm6W0zT4YA.jpeg)
+![](/images/medium/1__Up3aVxawTqsRpm6W0zT4YA.jpeg)
 
 Unlike most of my posts or writings, this is not a technical one. It borrows from the technical world a bit, but its purpose is more of a social endeavor.
 
@@ -35,7 +35,7 @@ If you already know how a Merkle tree works, skip this section.
 
 In a nutshell, a Merkle tree allows someone to summarize an arbitrary amount of data in a specific order in a very efficient way, as well as efficiently prove that any datum (single piece of data) belongs in that data. This is done by iteratively summarizing pairs of datum together, then successively summarizing the summaries, until you get to a single piece left, which summarizes the entire set. This last piece, called the **Merkle Root**, is the summary of everything that went into it, but stored in a relatively small amount of information. Here is the obligatory schematic of such a process.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__iSowWKCoLDmTsfDqBtgt3Q.png)
+![](/images/medium/1__iSowWKCoLDmTsfDqBtgt3Q.png)
 
 Quick note, you should know that the size of each section is the same, regardless of where it is. That is, the size of the Root is the exact same size as the base layer. The sizes of the above boxes in the image are only different for illustrative purposes.
 

@@ -47,15 +47,15 @@ No need to do a token breakdown, because they only accepted ETH. Other tokens we
 
 The second address listed is the Bittrex exchange, and the first isn’t listed on Etherscan. It is plausible to assign this address to another exchange, my bet would be Shapeshift. A more detailed analysis would show what portion of people invested through these two addresses, I didn’t look much further than what you see here.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__LkqTht____8RYxFmlPedTNzw.png)
+![](/images/medium/1__LkqTht____8RYxFmlPedTNzw.png)
 
 As with my previous posts, I find it very interesting to group the investors in to bins relative to the size of their investment. That means if you are an investor and you donated between 0–1 ETH, you belong in bin 0. If you donated between 1–10 ETH, you belong in bin 1, etc. Here is a table of the bins and the stats associated with them:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__gloTizTVFM68jXFXNr1yjA.png)
+![](/images/medium/1__gloTizTVFM68jXFXNr1yjA.png)
 
 and as always, here is the bar chart plot of the same data:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__NdEtTlAskkUB__3vEhQk__wA.png)
+![](/images/medium/1__NdEtTlAskkUB__3vEhQk__wA.png)
 
 ### **You Got Your Tin Foil Hats Ready, it’s Conclusion Time!**
 
@@ -84,10 +84,10 @@ Quick shout out to [MyEtherWallet](https://medium.com/u/a9af0d538df5) for the do
 
 Throw me some duckets of you like what I’m doing, and have some to spare:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
+![](/images/medium/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
 
 ETH and ERC20 tokens: 0x8F53781799515e5dc8f5D00C528940cAe99aC969
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__GaRyRFam9FLWhNikP8GDHw.png)
+![](/images/medium/1__GaRyRFam9FLWhNikP8GDHw.png)
 
 BTC: 1DXmuHMufPAUEuRUwKMNLqiMqmWQyKmZP6

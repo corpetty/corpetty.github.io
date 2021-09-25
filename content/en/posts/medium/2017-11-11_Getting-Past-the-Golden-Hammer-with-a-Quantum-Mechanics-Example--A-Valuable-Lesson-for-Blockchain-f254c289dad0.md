@@ -12,7 +12,7 @@ slug: >-
   /@corpetty/getting-past-the-golden-hammer-with-a-quantum-mechanics-example-a-valuable-lesson-for-blockchain-f254c289dad0
 ---
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__FzBS__K3KHjmY__EH5CAUUtA.png)
+![](/images/medium/1__FzBS__K3KHjmY__EH5CAUUtA.png)
 
 When reading about Bitcoin, Ethereum, Blockchain, other alt coins, etc… (I’ll use capital B — Blockchain here to encompass them all) I hear a lot of people say something akin to the following:
 

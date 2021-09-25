@@ -27,7 +27,7 @@ Poloniex          697929.88320           5826
 
 Ok, so it’s clear that Poloniex has the majority of DAO purchases, and they’re all associated with one address (that I know of). But other exchanges that I found in the data run quite a range. Considering these numbers, I tagged any address that had over 30k Ether invested and over 100 transactions as an “exchange.” This led to the following table of “exchanges” :
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__6df1FGdArmgO1A3BFa1qiA.png)
+![](/images/medium/1__6df1FGdArmgO1A3BFa1qiA.png)
 
 Five addresses end up contributing around 10% of the total Ether invested into The DAO. That’s a lot! Let’s take a moment to ponder the implications.
 
@@ -41,7 +41,7 @@ Essentially, all tokens associated with exchange purchases are distributed among
 
 Namely, exchanges acting as platforms to purchase DAO tokens are not an issue, as they never control the tokens! During the creation phase, they’re only providing access points into the DAO, and are not acting as custodians of DAO tokens. Let’s take another look at wealth distribution, taking into account this new group, and see how it changes. Below is the same plot as the [Part 1](https://medium.com/the-bitcoin-podcast-blog/looking-at-the-dao-address-distribution-part-1-f324e71381bf#.nerdfelvi) blog post, but updated with the additional exchange group, and now we’re counting DAO tokens and not Ether because of the [purchase rate changes](https://blog.daohub.org/the-dao-creation-period-price-schedule-4a8bc7a76e04#.qvunggdbk).
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__3ne2U__FrLe3znYNUFKy9Sg.png)
+![](/images/medium/1__3ne2U__FrLe3znYNUFKy9Sg.png)
 
 Jeez, putting the exchanges in a separate category cut the last group of people in half. That means that 6 addresses, whoever they are, control ~10% of the voting power, instead of ~20%. While this does put more voting power into more people’s hands, the vast majority is skewed towards a relatively low percentage of addresses that own tokens: the very, very wealthy.
 
@@ -51,7 +51,7 @@ If anything, this could lead to further token decentralization. There are many w
 
 This means people will buy tokens from others who have them, and at a premium, because no more tokens will be created. Good, somebody made a smart short-term investment decision and made some skrilla’. If you bought during the first phase of 100 DAO tokens for every Ether, then you can (more than likely) make a 50% return on your investment, considering people are still purchasing tokens at 100 DAO tokens for ever 1.5 Ether.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__NSlAzbtQsIxiNQU3VWW5Ww.gif)
+![](/images/medium/1__NSlAzbtQsIxiNQU3VWW5Ww.gif)
 
 More importantly, every time someone who buys tokens from someone else, overall decentralization is increased, as the distribution of voting power of spread across more people. As more and more understanding and knowledge is spread about the DAO, investors with more informed opinions will buy tokens as well.
 
@@ -63,7 +63,7 @@ Who these people are, and how it will effect the above chart, I don’t know. Al
 
 We’ve finished the rate changing days of the creation phase, so let’s check out the number of transactions/tokens distributed per day since this bad boy got started:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__1f3cdsAH5GYeX__BkCJc3Nw.png)
+![](/images/medium/1__1f3cdsAH5GYeX__BkCJc3Nw.png)
 
 From the plot, high initial bars indicate that people were waiting to invest as soon as possible. This is followed by a steady flow of both transactions and received tokens, slowly growing until the tokens/ether rate started rising. We see a sharp increase and peak around the time of the rate change, and drastic decline in investments, due to the rate increase, and diminishing returns from Ether invested.
 

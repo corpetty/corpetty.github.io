@@ -60,7 +60,7 @@ So my analysis got a few of these transactions mixed up when combining external 
 
 Below is the Status graphic from the previously linked Contribution article for your convenience.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__CWHPHHV4o0IZDXST__YYzSQ.png)
+![](/images/medium/1__CWHPHHV4o0IZDXST__YYzSQ.png)
 
 Note that the Status Genesis Allocation is “up to 10%.” Well, they didn’t actually give all of their allocation out, so the real numbers are as follows:
 
@@ -86,14 +86,14 @@ Investment (ETH):         Bin:
 
 Important Note: These value percentages are relative to the TOTAL SNT SUPPLY, which shows what type of investor has what control over the entire Status platform. Also, it should be noted that these numbers are only good for showing the distribution at the moment the ICO ended. More on this later. Here is the table of investors:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__YAtjNJO9cexbPg4TDktSOw.png)
+![](/images/medium/1__YAtjNJO9cexbPg4TDktSOw.png)
 
 and the plot:
 
 *   click the pic to blow it up
 *   click the link below to bring up an interactive version
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__Smc0y__TOL1XsofS1wxa3rg.jpeg)
+![](/images/medium/1__Smc0y__TOL1XsofS1wxa3rg.jpeg)
 
 We can see from the numbers that smaller amount investors have significantly more control of the token supply than previous ICOs that I’ve analyzed. This is a significant pullback from the trend of very few people controlling the vast majority of tokens, albeit the trend still exists.
 
@@ -140,10 +140,10 @@ If you don’t like slack, hit me up on twitter at `@corpetty` or email me at pe
 
 Throw me some duckets of you like what I’m doing, and have some to spare. The donations definitely help me stay motivated to do these:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
+![](/images/medium/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
 
 ETH and ERC20 tokens: 0x8F53781799515e5dc8f5D00C528940cAe99aC969
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__GaRyRFam9FLWhNikP8GDHw.png)
+![](/images/medium/1__GaRyRFam9FLWhNikP8GDHw.png)
 
 BTC: 1DXmuHMufPAUEuRUwKMNLqiMqmWQyKmZP6

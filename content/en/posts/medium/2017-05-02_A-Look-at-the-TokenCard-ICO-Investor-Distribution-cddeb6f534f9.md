@@ -37,11 +37,11 @@ Holler at me if you have a problem with my methodology. I’m not getting paid f
 
 Below is a table showing the relative contributions from each digital asset accepted. The `value` column is the amount of the respective token invested, and the `evaluated` column is the USD valuation of the token amount (at 78.36 USD/ETH).:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__V2z7oFZnwFBIpxy2__jPpaQ.png)
+![](/images/medium/1__V2z7oFZnwFBIpxy2__jPpaQ.png)
 
 This information in bar chart form is as follows:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__xuOyY8uiekTWk7SUhsaPiw.png)
+![](/images/medium/1__xuOyY8uiekTWk7SUhsaPiw.png)
 
 From the above information, we can see that TokenCard raised a total of 16,722,425.36 USD, with ETH accounting for **77.91%** of the total.
 
@@ -51,7 +51,7 @@ As stated in the Methodology section, we now move on to only look at the ETH bar
 
 Below is a plot of the individual investments as a function of time, broken up by successful and failed transactions.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__TnkDBRvIWZ1yvXo7YsYqlg.png)
+![](/images/medium/1__TnkDBRvIWZ1yvXo7YsYqlg.png)
 
 Note that the interactive version contains the successful transactions and failed transactions. You are also capable of zooming and spanning the plot for a better view. I’d love it if I could embed these in [Medium](https://medium.com/u/504c7870fdb6) sometime.
 
@@ -66,11 +66,11 @@ Like the other breakdowns I’ve done, I’ve found it useful to break up the tr
 
 Here is the breakdown of the individual groups, `exp_group` is the group number as defined above, `value` is the amount of ETH in the group, `size` is the number of **unique** addresses in the group, and the other two are the respective percentages.
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__o__8FnZz68rlQ7OStPbjtQQ.png)
+![](/images/medium/1__o__8FnZz68rlQ7OStPbjtQQ.png)
 
 And of course, the bar chart version of this information:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__5LsqDSV9jIGfjqsSOu3NMQ.png)
+![](/images/medium/1__5LsqDSV9jIGfjqsSOu3NMQ.png)
 
 Although this is not as drastic as what we saw in the [Gnosis auction](https://keepingstock.net/a-look-at-the-gnosis-dutch-auction-distribution-25c2ccac2d9d), we still see a large percentage of TKN sold to only a few investors.
 
@@ -101,10 +101,10 @@ As always, come listen to The Bitcoin Podcast and [BlockChannel](https://medium.
 
 Throw me some duckets of you like what I’m doing, and have some to spare:
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
+![](/images/medium/1__7Yj8YalSMYmZJ5ALAzk__kg.png)
 
 ETH and ERC20 tokens: 0x8F53781799515e5dc8f5D00C528940cAe99aC969
 
-![](/home/petty/Downloads/medium-export/posts/md_1632507099173/img/1__GaRyRFam9FLWhNikP8GDHw.png)
+![](/images/medium/1__GaRyRFam9FLWhNikP8GDHw.png)
 
 BTC: 1DXmuHMufPAUEuRUwKMNLqiMqmWQyKmZP6
