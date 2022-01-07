@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A dual axis chart, created by setting y's scale resolution to `\"independent\"`",
+    "width": 400, "height": 300,
+    "data": {
+      "url": "/vega/exponential_group.csv"
+    },
+    "transform": [],
+    "encoding": {
+      "x": {
+        "field": "exp_group",
+        "axis": {
+                 "grid": false
+                }
+        }
+    },
+    "layer": [
+      {
+        "mark":{"type": "bar", "color": "#675193"},
+        "encoding": {
+          "y": {
+            "field": "size_perc",
+            "axis" : {
+              "grid": false
+            }
+          }
+        }
+      },
+      {
+        "mark":"bar",
+        "encoding": {
+          "y": {
+            "field": "token_perc",
+            "axis" : {
+              "grid": false
+            }
+          }
+        }
+      }
+    ],
+    "resolve": {"scale": {"y": "independent"}}
+  }
