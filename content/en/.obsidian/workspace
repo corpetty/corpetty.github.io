@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "00228a80bf2f7057",
+    "type": "split",
+    "children": [
+      {
+        "id": "725c28cbd33582e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "posts/2022-01-07_daily-ramblings/index 1.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "62d004cb2285da04",
+    "type": "split",
+    "children": [
+      {
+        "id": "28254c9ce8dd9d67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "827cda5eb09b6481",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "452d63d567c92688",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "0baf5c19a1f54d1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "49521156e131af04",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c4dedab158b7ed0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/2022-01-07_daily-ramblings/index 1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "725c28cbd33582e6",
+  "lastOpenFiles": [
+    "posts/2022-01-07_daily-ramblings/index 1.md",
+    "posts/2021-02-25_covid-vaccine-reason/index.md"
+  ]
+}
