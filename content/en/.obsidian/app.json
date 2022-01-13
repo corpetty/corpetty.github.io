@@ -1,5 +1,7 @@
 {
   "spellcheck": true,
   "showFrontmatter": true,
-  "useTab": false
+  "useTab": false,
+  "legacyEditor": false,
+  "livePreview": true
 }
