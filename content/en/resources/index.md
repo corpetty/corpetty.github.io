@@ -16,6 +16,10 @@ enableWhoami: False
 ## Website Building
 - [Hugo](https://gohugo.io)
 
+## Cryptography
+
+### Zero-Knowledge
+- [Up and Atom's intro to zero-knowledge proofs](https://www.youtube.com/watch?v=V5uVKZn3F_4&t=1s)
 ## Blockchain Stuff
 
 ### Consensus Research
